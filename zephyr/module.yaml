@@ -1,0 +1,6 @@
+name: uart-bitbang
+build:
+  cmake: .
+  settings:
+    dts_root: .
+  kconfig: Kconfig

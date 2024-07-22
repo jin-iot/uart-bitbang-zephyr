@@ -1,0 +1,7 @@
+sample:
+  name: UART Bitbang Sample
+tests:
+  sample.drivers.uart.bitbang:
+    tags:
+      - uart
+      - serial

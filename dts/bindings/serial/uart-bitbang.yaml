@@ -1,0 +1,13 @@
+description: UART bitbang
+
+compatible: "zephyr,uart-bitbang"
+
+properties:
+  tx-gpios:
+    type: phandle-array
+    required: true
+  rx-gpios:
+    type: phandle-array
+    required: true
+
+include: uart-controller.yaml

@@ -1,0 +1,1 @@
+#define DT_DRV_COMPAT zephyr_uart_bitbang
